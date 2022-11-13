@@ -44,6 +44,8 @@ public class Herbivores extends Mammals {
                 ", livingEnvironment='" + livingEnvironment + '\'' +
                 ", name='" + name + '\'' +
                 ", birthYear=" + birthYear +
-                '}';
+                "} " + super.toString();
     }
 }
+
+

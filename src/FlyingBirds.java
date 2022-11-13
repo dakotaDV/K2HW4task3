@@ -46,7 +46,7 @@ public class FlyingBirds extends Birds{
                 ", livingEnvironment='" + livingEnvironment + '\'' +
                 ", name='" + name + '\'' +
                 ", birthYear=" + birthYear +
-                '}';
+                "} " + super.toString();
     }
 }
 

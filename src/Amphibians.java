@@ -41,6 +41,6 @@ public class Amphibians extends Animals {
               "livingEnvironment='" + livingEnvironment + '\'' +
               ", name='" + name + '\'' +
               ", birthYear=" + birthYear +
-              '}';
+              "} " + super.toString();
    }
 }

@@ -47,6 +47,6 @@ public class FlightlessBirds extends Birds{
                 ", livingEnvironment='" + livingEnvironment + '\'' +
                 ", name='" + name + '\'' +
                 ", birthYear=" + birthYear +
-                '}';
+                "} " + super.toString();
     }
 }
