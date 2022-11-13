@@ -43,4 +43,12 @@ public abstract class Mammals  extends Animals {
     @Override
     public abstract void go();
 
+    @Override
+    public String toString() {
+        return "Mammals{" +
+                "livingEnvironment='" + livingEnvironment + '\'' +
+                ", name='" + name + '\'' +
+                ", birthYear=" + birthYear +
+                "} " + super.toString();
+    }
 }

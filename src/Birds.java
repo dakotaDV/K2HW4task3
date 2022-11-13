@@ -27,4 +27,13 @@ public abstract class Birds extends Animals  {
     public abstract void go() ;
 
     public abstract void hunt();
+
+    @Override
+    public String toString() {
+        return "Birds{" +
+                "livingEnvironment='" + livingEnvironment + '\'' +
+                ", name='" + name + '\'' +
+                ", birthYear=" + birthYear +
+                "} " + super.toString();
+    }
 }

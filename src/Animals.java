@@ -32,19 +32,19 @@ public abstract class Animals {
     public abstract void go();
 
     @Override
-    public String toString() {
-        return "Animals{" +
-                "name='" + name + '\'' +
-                ", birthYear=" + birthYear +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Animals animals = (Animals) o;
         return birthYear == animals.birthYear && Objects.equals(name, animals.name);
+    }
+
+    @Override
+    public String toString() {
+        return "Animals{" +
+                "name='" + name + '\'' +
+                ", birthYear=" + birthYear +
+                '}';
     }
 
     @Override
